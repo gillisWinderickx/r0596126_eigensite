@@ -1,0 +1,219 @@
+
+ html {
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: rgb(22, 109, 150);
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    padding: 1em;
+    background: rgb(22, 109, 150);
+    width: 100%;
+  }
+
+  header nav {
+    overflow: hidden;
+  }
+  header nav a {
+    padding: .75em;
+    font-weight: 600;
+    width: 100%;  
+    text-decoration: none;
+  }
+  
+  .knop {
+      color: white;
+      font-weight: 600;
+      font-family: Ubuntu, Verdana, Tahoma, sans-serif;
+  }
+
+  a {
+    outline: none;
+    text-decoration: none;
+  }
+
+  .knop:visited {
+    text-decoration: none;
+  }
+
+  .knop:focus {
+      color: black;
+  }
+
+  .knop:hover {
+      color: black;
+  }
+
+  #link {
+      font-weight: bolder;
+      color:  rgb(22, 109, 150);
+  }
+  #link:visited {
+      text-decoration: none;
+  }
+  #link:hover {
+      color: black;
+  }
+  #link:focus {
+      color: black;
+  }
+  #ag0 { 
+    width: 100%;
+    height: 80%;
+    background-image: url(images/Achtergrond.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  #ag1 { 
+    width: 100%;
+    height: 50%;
+    background-image: url(images/GlasDiest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  #ag2 { 
+    width: 100%;
+    height: 50%;
+    background-image: url(images/DiestKeuken.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  footer {
+    display: flex;
+    color: white;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .foot {
+      flex: 50%;
+  }
+  h1, h2 {
+    margin: 0 0 .5em 0;
+    letter-spacing: -.02em;
+  }
+
+  h2 {
+    font-size: 20pt;
+    font-weight: 400;
+    color: rgb(22, 109, 150);
+  }
+  p {
+    margin: 0;
+  }
+  p + p {
+    margin-top: .75em;
+  }
+
+  main {
+    background: white;
+    padding-bottom: 1.5em;
+    text-align: justify;
+  }
+  .sec1 .sec2 .sec3{
+      padding: 1.5em;
+      padding-bottom: 0;
+  }
+  
+  main aside {
+    padding: 1.5em;
+    padding-bottom: 0;
+}
+
+  main article {
+    padding: 1.5em;
+    background: white;
+    border-radius: 3px;
+  }
+  main article p {
+    color: rgb(22, 109, 150);
+    line-height: 1.5;
+  }
+
+  .sec3 {
+      display: flex;
+  }
+
+  .kolom {
+      flex: 50%;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: rgb(22, 109, 150);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: rgb(22, 109, 150);
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  @media (min-width: 800px) {
+    header,
+    main {
+      overflow: hidden;
+    }
+   .sec1 {
+      float: right;
+      width: 40%;
+    }
+    .sec2 {
+      float: left;
+      width: 60%
+    }
+    main aside {
+      float: left;
+      width: 20%;
+    }
+
+    #aside1 {
+      margin-top: 2em;
+    }
+
+    #aside2 {
+      float: right;
+      margin-top: 3em;
+      margin-right: 4em;
+    }
+    .sec1 {
+      width: 60%;
+      padding-right: 0;
+    }
+
+  }
